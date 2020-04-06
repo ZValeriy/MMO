@@ -8,12 +8,12 @@
 
 ((* block packages *))
     \usepackage{fontspec}
-    \setsansfont{CMU Sans Serif}
-    \setmainfont{CMU Serif}
-    \setmonofont{CMU Typewriter Text}
-    % \setsansfont{Arial}
+    \setsansfont{Times New Roman}
+    \setmainfont{Times New Roman}
+    \setmonofont{Times New Roman}
+    % \setsansfont{Times New Roman}
     % \setmainfont{Times New Roman}
-    % \setmonofont{Consolas}
+    % \setmonofont{Times New Roman}
 
     \usepackage{polyglossia}
     \setmainlanguage{russian}
@@ -137,14 +137,13 @@
     \vfill
 
     \begin{center}
-    Москва~--- 2019~г.\\[1em]
+    Москва~--- 2020~г.\\[1em]
     \hrule
     \end{center}
     \end{titlepage}
 
     \setcounter{page}{2}
 ((* endblock predoc *))
-
 ((* block bibliography *))
     \bibliographystyle{ugost2008}
     \bibliography{bib}
